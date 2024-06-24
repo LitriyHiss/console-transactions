@@ -1,5 +1,23 @@
 import matplotlib.pyplot as plt
 
+def main():
+    while True:
+        print("1. Add transaction")
+        print("2. Analyze transactions")
+        print("3. Graph transactions")
+        print("4. Exit")
+        choice = int(input("Enter your choice: "))
+        if choice == 1:
+            add_transaction()
+        elif choice == 2:
+            analyze_transactions()
+        elif choice == 3:
+            matplotlib_transactions()
+        elif choice == 4:
+            break
+        else:
+            print("Invalid choice")
+
 def add_transaction():
     ammount = float(input("Enter ammount: "))
     if type(ammount) != float:
@@ -85,4 +103,4 @@ def matplotlib_transactions():
     plt.show()
     
             
-matplotlib_transactions()
+main()

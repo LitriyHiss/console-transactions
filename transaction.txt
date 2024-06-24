@@ -8,3 +8,6 @@
 {'ammount': 250.0, 'category': 'attraction', 'date': '23-6-78', 'description': 'co'}
 {'ammount': 250.0, 'category': 'food', 'date': '23-6-78', 'description': 'co'}
 {'ammount': 250.0, 'category': 'food', 'date': '23-5-78', 'description': 'co'}
+{'ammount': 125.0, 'category': 'food', 'date': '29-4-20', 'description': 'co'}
+{'ammount': 130.0, 'category': 'attraction', 'date': '16-6-20', 'description': 'co'}
+{'ammount': 167.0, 'category': 'food', 'date': '12-4-20', 'description': 'co'}
